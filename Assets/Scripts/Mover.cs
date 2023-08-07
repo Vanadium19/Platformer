@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 
-public class MoveController : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private float _jumpForce = 400f;
     [SerializeField] private float _movementSmoothing = 0.05f;
